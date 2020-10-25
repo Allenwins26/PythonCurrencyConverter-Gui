@@ -1,2 +1,2 @@
-# Bitcoin-Price-Notification
-utilizes Python
+#Python Gui Application
+utilizes Tkinter
