@@ -1,2 +1,1 @@
-#Python Gui Application
-utilizes Tkinter
+This Python Gui Application utilizes Tkinter
