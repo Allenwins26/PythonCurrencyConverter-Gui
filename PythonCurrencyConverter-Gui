@@ -1,0 +1,17 @@
+#txt focus
+from tkinter import *
+window = Tk()
+window.geometry('325x150')#window size
+window.title("Welcome to my GUI Project")
+lbl = Label(window, text="Hello!Please enter your name")
+lbl.grid(column=0, row=0)
+txt = Entry(window, width=20) #entry info
+txt.grid(column=1, row=0) #entry info
+txt.focus()
+def clicked(): #click event
+   res = "Welcome to this GUI " + txt.get()#entered text
+   lbl.configure(text =res) #entered text
+btn= Button(window, text="Enter", command=clicked)
+btn.grid(column=2, row=0)#entry info
+window.mainloop()
+
